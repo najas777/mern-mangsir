@@ -1,9 +1,9 @@
-const headTag = document.querySelector('h1');
+const personName = 'exc  ';
 
 
+//console.log(personName.concat(''));
 
-
-const changeHead = () => {
-  headTag.style.color = 'red';
-  headTag.style.fontSize = '40px'
-}
+//console.log(personName.replaceAll('bad', 'good'));
+// console.log(personName.search(regexp))
+// console.log(personName.substring(1, 7));
+console.log(personName.trim().length);
